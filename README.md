@@ -1,38 +1,23 @@
-This repository contains the Python Fundamentals Capstone Project, which demonstrates the core functionalities of Python in data manipulation and analysis. The project involves solving a series of tasks related to project and employee management using multiple datasets, showcasing proficiency in Python, Pandas, and NumPy.
+This repository contains a comprehensive analysis of Freshco Hypermarket's performance, utilizing Microsoft Excel for data analysis and PowerPoint for presenting the findings. The project provides insights into various aspects of the business, such as sales trends, customer behavior, delivery performance, and operational efficiencies. Through this analysis, key areas for improvement and strategic recommendations are identified to enhance business operations and customer satisfaction.
 
-Project Overview:
-The project focuses on handling project data, including:
--Employee details
--Project costs and statuses
--Designation levels
-Each task in the project requires applying Python to clean, manipulate, and analyze the datasets to extract meaningful insights.
+Project Objective
 
-Key Tasks:
--Dataframe Creation: Three different datasets are represented as dataframes:
+The primary objective of this project is to analyze Freshco Hypermarket's sales and operational data using Excel and to present key findings and recommendations using PowerPoint. The analysis focuses on understanding key performance indicators (KPIs), uncovering trends, and providing actionable insights to optimize business strategies. The aim is to improve customer satisfaction, streamline operations, and drive business growth.
 
--Employee Data
--Seniority Level Data
+Key Insights
 
-Project Data These datasets are saved into CSV files for further use in analysis.
--Handling Missing Data: Compute missing project costs using a running average with a for loop.
+The order level analysis revealed that the afternoon slot consistently recorded the highest number of orders, indicating peak activity during midday, likely driven by lunch orders or shopping habits. Discount trends were also analyzed, with a notable increase in average discount percentages from January to September. August showed the highest discount percentage of 20.49% in the afternoon slot, reflecting strategic promotional efforts during this period.
 
--Splitting Columns: Split the name column in the Employee dataframe into First Name and Last Name.
+In the completion rate analysis, it was observed that organic sources had the highest completion rates, followed closely by customers acquired through Snapchat. Instagram and offline campaign sources, however, had lower completion rates. Additionally, customers acquired from organic sources displayed the highest lifetime value (LTV), while Snapchat led in generating the highest average revenue per customer.
 
--Merging Dataframes: Join the three dataframes into a single dataframe named Final for a comprehensive view of all project details.
+The customer level analysis highlighted that customer acquisition peaked in January and gradually declined throughout the year, with September recording the lowest number of acquisitions. Product ratings were generally high, with the afternoon time slot receiving the highest customer satisfaction ratings. Most product categories received ratings above 4.8, demonstrating high levels of customer approval.
 
--Bonus Calculation: Add a new column to calculate a 5% bonus based on project cost for employees who completed their projects.
+The delivery analysis identified that delivery times were shorter on weekdays compared to weekends, with afternoon deliveries being the most efficient. Late-night deliveries, however, incurred the highest delivery charges, while morning deliveries were the least expensive, suggesting opportunities for optimizing delivery pricing strategies.
 
--Designation Updates: Demote employees who have failed projects and remove employees whose designation level exceeds a certain limit.
+State-wise sales analysis revealed that São Paulo, Rio de Janeiro, and Minas Gerais were the top-performing regions, contributing the most to overall sales. In contrast, states like Rondônia and Acre showed lower sales performance, indicating potential for market expansion in these regions.
 
--Data Cleaning: Add titles (Mr./Mrs.) to the employee names based on gender and remove the gender column.
+Finally, the revenue trends and seasonal sales analysis showed that sales peaked during the second quarter of the year, likely driven by seasonal promotions and holidays. A decline in sales was observed in the fourth quarter, which could be attributed to post-holiday slowdowns. The revenue growth from 2016 to 2018 was steady, showcasing the effectiveness of Freshco's business strategies during this period.
 
--Promotion Logic: Promote employees whose age is above 29 by one designation level.
+Tools and Technologies
 
--Project Cost Summary: Create a summary dataframe (TotalProjCost) that sums up the project costs per employee.
-
--Filtering Data: Identify and print details of employees based on specific city name criteria (cities containing the letter "o").
-
-Tools and Libraries:
--Python: Core language used for the entire project.
--Pandas: Used for dataframe manipulation and data cleaning.
--NumPy: For numerical computations and handling missing values.
+The analysis was conducted using Microsoft Excel for data manipulation, pivot tables, and charting to derive insights from the data. Microsoft PowerPoint was used to create a visual presentation of the findings, showcasing the trends and key metrics through various charts and visual aids. These tools were critical in turning raw data into meaningful insights and actionable recommendations.
